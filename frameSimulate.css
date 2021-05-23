@@ -1,0 +1,42 @@
+#mastHead { position: static;
+           top: 0px;
+           left: 0px;
+           width: 100%;
+           height: auto;
+           background-color: #CCC;
+			border:none;
+            color: navy;
+            text-align: left;
+
+            }
+#linkIndex{ position: absolute;
+            left: 0px;
+			top: 0px
+            width: 20%;
+			float: left;
+            padding: 3px;
+			border:none;
+            padding-bottom: 150px;
+ }
+#contentsBox{ position: absolute; 
+              right: 0px; 
+			  width: 80%;
+			  float: left;
+              padding: 3px 3px;
+			  border:none;
+              border-left: 2px solid orange; }
+#placeholder1 {clear: both;}
+
+/*redefine linkIndex for pretty links*/
+#linkIndex>a{ display: block;
+              padding: 1px 1px;
+		   	  padding-left: 8px;
+              font-weight: bold;
+              font-size: 100%;
+			  color: navy;
+              border-left: 1px solid #fff;}
+
+/*New style rules for Improvements page*/
+#linkIndex>a,#linkIndex>a:link{ text-decoration:none; }
+#linkIndex>a:visited{ color: green; }
+

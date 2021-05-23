@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-15">
+  <title>LCPC 2009</title>
+  <link rel="stylesheet" type="text/css" href="frameSimulate.css">
+  <style type="text/css">
+<!--
+.style1 {font-weight: bold}
+-->
+  </style>
+</head>
+<body>
+<!--#include file="nav.inc" -->
+<!-- Main content box of page - acts as the "frame" in this design -->
+<div id="contentsBox">
+  <p><strong>Tutorial on SSA-based Register Allocation</strong></p>
+  <p><strong>Organizers</strong>:</p>
+  <p><br>
+    Philip Brisk, EPFL<br>
+    Jens Palsberg, UCLA<br>
+    Fabrice Rastello, ENS Lyon<br>
+    Sebastian Hack, Saarland University, Germany<br>
+    Florent Bouchez, Indian Institute of Science, India</p>
+  <p><strong>Location:</strong></p>
+  <p>140 DuPont Hall (building 66 in the <a href="http://www.udel.edu/visitus/pdfmaps/udcampusmap.pdf">map</a>)</p>
+  <p><br>
+    <strong>SUMMARY</strong></p>
+  <p>In the past years, we discovered that the interference graphs of SSA-form programs are chordal. This has several attractive implications for register allocation: First, coloring the interference graph is no longer NP-complete. Second, the number of needed registers is generally less than in non SSA-form programs. Finally, this number is equal to maximal number of simultaneously live variables.</p>
+  <p>This opens the door to what we call SSA-based register allocation. The main advantage of this new approach, is that the two problems, spilling, then coloring/coalescing can be optimized separately in two consecutive (more clean and simpler) phases. This is especially interesting for the design of compilers (either aggressive or just in time) for embedded processors.</p>
+  <p>The goal of this tutorial is to explain the basics of this in-two-phases approach and to provide the elements to help compiler writers build both memory friendly, fast and competitive (fewer spill code) register allocators. To illustrate this, we will also present new possible approaches to spilling, coalescing, and SSA destruction, as well as experiments with an SSA-based register allocator.</p>
+  <p><strong>OUTLINE</strong></p>
+  <p>We will start from scratch, explain the key ideas in detail via examples, and present both theoretical and experimental results. We have divided the material such that each speaker will present a well-rounded portion.</p>
+  <p>1. Introduction to SSA-based register allocation: Jens Palsberg. (<a href="Palsberg.pdf">slides</a>)<br>
+    2. SSA properties, polynomial time: Sebastian Hack.  (<a href="Hack.pdf">slides</a>)<br>
+    3. Spilling, interval graphs: interprocedural: Philip Brisk. (<a href="Brisk.pdf">slides</a>)<br>
+    4. Coalescing: Fabrice Rastello.  (<a href="Rastello.pdf">slides</a>)<br>
+  5. SSA destruction: Florent Bouchez. (<a href="Bouchez.pdf">slides</a>)</p>
+  <p><br>
+    <strong>ABOUT THE PRESENTERS</strong></p>
+  <p>Philip Brisk received his B.S., M.S., and Ph.D. degrees, all in Computer Science, from UCLA in 2002, 2003, and 2006 respectively. Since 2006, he has been a postdoctoral scholar with the Ecole Polytechnique Federale de Lausanne (EPFL). His research interests include application-specific processor design, reconfigurable computing, and compilers.</p>
+  <p>Jens Palsberg is a Professor of Computer Science at UCLA. He received a Ph.D. in Computer Science from University of Aarhus, Denmark in 1992. His research interests span the areas of compilers, embedded systems, programming languages, software engineering, and information security. He is an associate editor of ACM Transactions of Programming Languages and Systems, a member of the editorial board of Information and Computation, and a former member of the editorial board of IEEE Transactions on Software Engineering. He is serving as the vice chair of ACM SIGBED, Special Interest Group on Embedded Systems, and he has served as vice chair of computer science at UCLA, as associate head of computer science at Purdue University, as general chair of POPL, as conference chair of LICS, and as a program chair for POPL, EMSOFT, MEMOCODE, PASTE, SAS, SREIS, and TACAS.</p>
+  <p>Fabrice Rastello is a researcher of Computer Science at Inria, ENS Lyon, France. He has done his PhD thesis at LIP, ENS Lyon, France (received in 2000) in the field of automatic parallelization (tiling, heterogeneous computing). Then he worked for two years in a compiler group at STMicroelectronics (Grenoble, France) where he mainly developed back-end optimizations in LAO (linear assembly optimizer). His research topic is the compiler optimizations for DSP/VLIW/Media like embedded processors. He still works in collaboration with STmicroelectronics' compiler team for the ST200 family DSP processors. His current research work is focused on JIT compilation, SSA-based optimizations, code compression, register allocation and instruction-cache optimizations.</p>
+  <p>Sebastian Hack received his PhD 2006 from Karlsruhe University. After a Post-Doc at ENS Lyon, France and EPFL, Switzerland, he is an assistant professor of computer science at Saarland University, Germany since 2008. His research interests are compilers in their widest sense. His recent activities include performing code-generation tasks on the SSA-form such as instruction selection and register allocation. He was the principal architect of the libFirm compiler's entirely SSA-based backend.</p>
+  <p>Florent Bouchez received his Ph.D. in computer science in 2009 at the ENS Lyon in France, on the separation of spilling and coalescing in register allocation. Since March 2009, he has been a post-doctoral fellow at the Indian Institute of Science (IISc) in Bangalore, India. His research interests are register allocation, SSA-form, and general-purpose computing on GPUs.<br>
+    </p>
+  <hr><br>
+</div>
+</body>
+</html>

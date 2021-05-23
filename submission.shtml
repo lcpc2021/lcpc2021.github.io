@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-15">
+  <title>LCPC 2009</title>
+  <link rel="stylesheet" type="text/css" href="frameSimulate.css">
+  <style type="text/css">
+<!--
+.style1 {font-weight: bold}
+.style2 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+  </style>
+</head>
+<body>
+<!--#include file="nav.inc" -->
+<!-- Main content box of page - acts as the "frame" in this design -->
+<div id="contentsBox">
+  <p>A submission consists of an abstract and a paper formatted following the instructions provided below. The abstract is due by<span class="style2"> 11:59 PM (US Eastern Time) Wednesday July 15, 2009 (EXTENDED) .</span> <s>11:59PM (US Eastern Time) Wednesday July 8, 2009</s>. The paper is due <span class="style2">by 11:59 PM (US Eastern Time) Wednesday July 25, 2009 (EXTENDED) .</span> <s>one week later, by 11:59PM (US Eastern Time) Wednesday July 15, 2009</s>. The submission website is <a href="https://www.softconf.com/a/lcpc09/">https://www.softconf.com/a/lcpc09/</a>.</p>
+  <p><br>
+    Abstract Preparation -  The abstract submission includes a description (100-300 words) of the paper.</p>
+  <p>Paper Preparation -  LCPC 2009 papers are limited to 15 pages in the Springer LNCS format. Papers must be submitted in PDF format and must be viewable by Adobe Acrobat Reader.</p>
+  <p>For questions please email PC Co-chairs.</p>
+  <br>
+<hr><br>
+</div>
+</body>
+</html>

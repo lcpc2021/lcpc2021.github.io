@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-15">
+  <title>LCPC 2009</title>
+  <link rel="stylesheet" type="text/css" href="frameSimulate.css">
+  <style type="text/css">
+<!--
+.style1 {font-weight: bold}
+-->
+  </style>
+</head>
+<body>
+<!--#include file="nav.inc" -->
+<!-- Main content box of page - acts as the "frame" in this design -->
+<div id="contentsBox">
+  <p>Registration costs:</p>
+  <p><strong>Regular: </strong></p>
+  <p>On or before Oct. 3: $350.00 US Dollars<br>
+  On or after Oct. 4: &nbsp;&nbsp;&nbsp;$400.00 US Dollars</p>
+  <p><strong>Students:</strong></p>
+  <p>On or before Oct. 3: $275.00 US Dollars<br>
+  On or after Oct. 4: &nbsp;&nbsp;&nbsp;$325.00 US Dollars</p>
+  <p>The workshop has a tutorial on <a href="tutorial.shtml"><em>SSA-based Register Allocation</em></a>. The cost of the tutorial is $25.</p>
+  <p>Please register <a href="https://crayola.hcs.udel.edu/conf/registration/lcpc/">here</a>.</p>
+<p>If you need an invitation letter to apply visa, please contact the workshop assistant Xu Wang (wangxu820522@gmail.com).<br>
+      </p>
+  <hr><br>
+</div>
+</body>
+</html>
