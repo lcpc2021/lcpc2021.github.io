@@ -24,13 +24,6 @@
 </head>
 <body>
 <!-- Main content box of page - acts as the "frame" in this design -->
-<div id="mastHead">
-<h2>The 22nd International Workshop on Languages and Compilers for Parallel Computing<br>
-  </h2>
-<h3>
-Trabant University Center, University of Delaware, Newark, Delaware, USA. October 8-10, 2009<br>
-</h3>
-</div>
 {% include nav.inc %}
 <div id="contentsBox">
   <p class="style1"><img src="memorial.jpg" alt="University of Delaware Campus" width="500" height="329"></p>
